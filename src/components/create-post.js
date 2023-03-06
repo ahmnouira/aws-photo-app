@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Button, Input, Image } from "antd";
 import { v4 as uuid } from "uuid";
-import { Storage } from "aws-amplify";
+import { Amplify, Storage } from "aws-amplify";
 
 const initialFormState = {
   title: "",
